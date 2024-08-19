@@ -1,0 +1,8 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 5rem;
+  min-height: calc(100dvh - 7rem);
+  overflow-x: hidden;
+}

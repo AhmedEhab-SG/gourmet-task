@@ -1,0 +1,17 @@
+@import url("./styles/css/main.css");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  font-family: var(--font-family);
+}
+
+.containerPadding {
+  padding-inline: clamp(1rem, 5vw, 2rem);
+}
+
+.hidden {
+  display: none;
+}

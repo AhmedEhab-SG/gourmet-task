@@ -1,0 +1,20 @@
+{
+  "name": "gourmet-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "frontend",
+    "mock-server"
+  ],
+  "description": "react gourmet-task",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm --prefix ./frontend start\" \"npm --prefix ./mock-server start\"",
+    "build": "npm --prefix ./frontend run build",
+    "test": "npm --prefix ./frontend run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

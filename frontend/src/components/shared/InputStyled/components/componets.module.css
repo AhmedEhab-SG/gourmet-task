@@ -1,0 +1,38 @@
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+  min-height: 150px;
+  max-height: 350px;
+}
+
+.label {
+  font-size: var(--font-md);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.errorText {
+  font-size: var(--font-sm);
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  border-color: red;
+}

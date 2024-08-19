@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 0.1rem;
+}
+
+.label {
+  font-size: var(--font-md);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/*if i want to add svg icon*/
+.selectContainer {
+  position: relative;
+  width: 100%;
+}
+
+.select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.select:focus {
+  border-color: var(--primary-color);
+}
+
+.errorText {
+  font-size: var(--font-sm);
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  border-color: red;
+}

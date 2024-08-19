@@ -1,0 +1,42 @@
+{
+  "header": {
+    "logo": "Gourmet Table",
+    "nav": {
+      "home": "home",
+      "addProduct": "Add product"
+    }
+  },
+
+  "pages": {
+    "home": {
+      "title": "Table",
+      "table": {
+        "tableHeaders": {
+          "id": "ID",
+          "name": "Name",
+          "description": "Description",
+          "price": "Price",
+          "relaseDate": "Date",
+          "category": "Category",
+          "actions": "Actions"
+        },
+        "addBtn": "Add Product"
+      },
+
+      "fetching": "Fetching..."
+    },
+
+    "product": {
+      "title": "Product",
+      "form": {
+        "name": "Name",
+        "description": "Description",
+        "price": "Price",
+        "category": "Category",
+        "add": "Add Product",
+        "goBack": "Go back",
+        "edit": "Edit Product"
+      }
+    }
+  }
+}

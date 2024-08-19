@@ -1,0 +1,15 @@
+:root {
+  --primary-color: rgb(40, 93, 161);
+  --header-color: rgb(239 232 219 / 0.85);
+  --footer-color: rgb(239 232 219 / 0.85);
+  --back-ground-drop: rgba(38, 38, 38, 0.7);
+
+  --success-color: #38a169;
+  --success-hover-color: #2f855a;
+
+  --danger-color: #d34d4d;
+  --danger-hover-color: #640b0b;
+
+  --warning-color: #917b2c;
+  --warning-hover-color: #533d11;
+}
